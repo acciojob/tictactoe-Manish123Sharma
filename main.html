@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<div class="container">
+  <div class="container">
     <h1>Tic Tac Toe</h1>
-    
+
     <div id="input-area">
+      <!-- ⚠ Changed IDs to match Cypress: player-1 -> player1, player-2 -> player2 -->
       <label>Player 1 <input id="player1" placeholder="enter name" /></label>
       <label>Player 2 <input id="player2" placeholder="enter name" /></label>
       <button id="submit">Start Game</button>
@@ -33,9 +30,7 @@
       </div>
     </div>
   </div>
-    <script type="text/javascript" src="./script.js">
-</script>
 
+  <script src="script.js"></script>
 </body>
-
 </html>
